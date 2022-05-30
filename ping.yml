@@ -1,0 +1,7 @@
+---
+name: 'Ping all hosts'
+hosts: ratchet
+tasks:
+
+  - name: 'Ping'
+    ping:
