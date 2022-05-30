@@ -1,7 +1,6 @@
 ---
-name: 'Ping all hosts'
-hosts: ratchet
-tasks:
+- name: 'Ping all hosts'
+  tasks:
 
   - name: 'Ping'
     ping:
